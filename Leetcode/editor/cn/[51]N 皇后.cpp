@@ -66,10 +66,11 @@ public:
         }
         for (int i = 0; i < n; i++) {
             if (!col[i] && !dg[row - i + n] && !adg[row + i]) {
-                col[i] = dg[row - i + n] = adg[row + i] = 1;
+                //正对角线row-i会出现负值，加n使其均为正
+                col[i] = dg[row - i + n] = adg[row + i] = 1;//符合条件的位置置1
                 board[row][i] = 'Q';
-                dfs(row + 1, n);
-                col[i] = dg[row - i + n] = adg[row + i] = 0;
+                dfs(row + 1, n);                            //遍历下一行
+                col[i] = dg[row - i + n] = adg[row + i] = 0;//重置以便下一轮搜索
                 board[row][i] = '.';
             }
         }
