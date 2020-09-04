@@ -1,4 +1,4 @@
-//给定一个二叉树，返回它的 前序 遍历。
+//给定一个二叉树，返回它的 后序 遍历。
 //
 // 示例:
 //
@@ -9,12 +9,11 @@
 //    /
 //   3
 //
-//输出: [1,2,3]
-//
+//输出: [3,2,1]
 //
 // 进阶: 递归算法很简单，你可以通过迭代算法完成吗？
 // Related Topics 栈 树
-// 👍 356 👎 0
+// 👍 386 👎 0
 
 
 //leetcode submit region begin(Prohibit modification and deletion)
@@ -24,34 +23,14 @@
  *     int val;
  *     TreeNode *left;
  *     TreeNode *right;
- *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
 class Solution {
 public:
-    vector<int> preorderTraversal(TreeNode *root) {
-        if (!root)
-            return {};
-        vector<int> ans;
-        stack<TreeNode *> st;
-        st.push(root);
-        while (!st.empty()) {
-            TreeNode *temp = st.top();
-            ans.push_back(temp->val);
-            st.pop();
-            if (temp->right)
-                st.push(temp->right);
-            if (temp->left)
-                st.push(temp->left);
-        }
-        return ans;
-    }
-};
-
-//前/中/后序遍历统一写法
-class Solution_2 {
-public:
-    vector<int> preorderTraversal(TreeNode *root) {
+    vector<int> postorderTraversal(TreeNode *root) {
         if (!root)
             return {};
         vector<int> res;
@@ -61,12 +40,12 @@ public:
             TreeNode *cur = s.top();
             s.pop();//访问过的节点弹出，避免重复操作，再将中左右节点入栈
             if (cur != nullptr) {
-                if (cur->right)//右节点入栈
+                s.push(cur);    //中节点入栈
+                s.push(nullptr);//中节点已经访问过，还没有被处理，用nullptr做标记
+                if (cur->right) //右节点入栈
                     s.push(cur->right);
                 if (cur->left)//左节点入栈
                     s.push(cur->left);
-                s.push(cur);                //中节点入栈
-                s.push(nullptr);            //中节点已经访问过，还没有被处理，用nullptr做标记
             } else {                        //空节点表示已访问过
                 res.push_back(s.top()->val);//s.top()是nullptr之前入栈的节点，即s.push(cur)中的cur
                 s.pop();                    //处理完后彻底移除
@@ -75,6 +54,4 @@ public:
         return res;
     }
 };
-
-
 //leetcode submit region end(Prohibit modification and deletion)

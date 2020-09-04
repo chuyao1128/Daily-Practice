@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[51]N 皇后",
-    "frontendQuestionId": "51",
+    "formTitle": "[257]二叉树的所有路径",
+    "frontendQuestionId": "257",
     "leaf": true,
-    "level": 3,
+    "level": 1,
     "nodeType": "def",
-    "questionId": "51",
+    "questionId": "257",
     "status": "",
-    "title": "N 皇后",
-    "titleSlug": "n-queens"
+    "title": "二叉树的所有路径",
+    "titleSlug": "binary-tree-paths"
   },
   {
     "articleLive": 2,
@@ -610,6 +610,18 @@
     "status": "",
     "title": "Pow(x, n)",
     "titleSlug": "powx-n"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[51]N 皇后",
+    "frontendQuestionId": "51",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "51",
+    "status": "ac",
+    "title": "N 皇后",
+    "titleSlug": "n-queens"
   },
   {
     "articleLive": 2,
@@ -1723,7 +1735,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "144",
-    "status": "",
+    "status": "ac",
     "title": "二叉树的前序遍历",
     "titleSlug": "binary-tree-preorder-traversal"
   },
@@ -1735,7 +1747,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "145",
-    "status": "",
+    "status": "ac",
     "title": "二叉树的后序遍历",
     "titleSlug": "binary-tree-postorder-traversal"
   },
@@ -3070,18 +3082,6 @@
     "status": "lock",
     "title": "粉刷房子",
     "titleSlug": "paint-house"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[257]二叉树的所有路径",
-    "frontendQuestionId": "257",
-    "leaf": true,
-    "level": 1,
-    "nodeType": "def",
-    "questionId": "257",
-    "status": "",
-    "title": "二叉树的所有路径",
-    "titleSlug": "binary-tree-paths"
   },
   {
     "articleLive": 2,
@@ -6151,7 +6151,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "513",
-    "status": "",
+    "status": "ac",
     "title": "找树左下角的值",
     "titleSlug": "find-bottom-left-tree-value"
   },
@@ -7639,7 +7639,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "637",
-    "status": "",
+    "status": "ac",
     "title": "二叉树的层平均值",
     "titleSlug": "average-of-levels-in-binary-tree"
   },
@@ -8047,7 +8047,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "671",
-    "status": "",
+    "status": "ac",
     "title": "二叉树中第二小的节点",
     "titleSlug": "second-minimum-node-in-a-binary-tree"
   },
@@ -18826,6 +18826,30 @@
     "status": "",
     "title": "将子数组重新排序得到同一个二叉查找树的方案数",
     "titleSlug": "number-of-ways-to-reorder-array-to-get-same-bst"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1570]Dot Product of Two Sparse Vectors",
+    "frontendQuestionId": "1570",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1713",
+    "status": "lock",
+    "title": "Dot Product of Two Sparse Vectors",
+    "titleSlug": "dot-product-of-two-sparse-vectors"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1571]Warehouse Manager",
+    "frontendQuestionId": "1571",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1718",
+    "status": "lock",
+    "title": "Warehouse Manager",
+    "titleSlug": "warehouse-manager"
   },
   {
     "articleLive": 2,
