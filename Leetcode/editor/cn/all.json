@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[257]二叉树的所有路径",
-    "frontendQuestionId": "257",
+    "formTitle": "[347]前 K 个高频元素",
+    "frontendQuestionId": "347",
     "leaf": true,
-    "level": 1,
+    "level": 2,
     "nodeType": "def",
-    "questionId": "257",
-    "status": "",
-    "title": "二叉树的所有路径",
-    "titleSlug": "binary-tree-paths"
+    "questionId": "347",
+    "status": "ac",
+    "title": "前 K 个高频元素",
+    "titleSlug": "top-k-frequent-elements"
   },
   {
     "articleLive": 2,
@@ -727,7 +727,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "60",
-    "status": "",
+    "status": "ac",
     "title": "第k个排列",
     "titleSlug": "permutation-sequence"
   },
@@ -1135,7 +1135,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "94",
-    "status": "",
+    "status": "ac",
     "title": "二叉树的中序遍历",
     "titleSlug": "binary-tree-inorder-traversal"
   },
@@ -1291,7 +1291,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "107",
-    "status": "",
+    "status": "ac",
     "title": "二叉树的层次遍历 II",
     "titleSlug": "binary-tree-level-order-traversal-ii"
   },
@@ -2767,7 +2767,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "230",
-    "status": "",
+    "status": "ac",
     "title": "二叉搜索树中第K小的元素",
     "titleSlug": "kth-smallest-element-in-a-bst"
   },
@@ -2827,7 +2827,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "235",
-    "status": "",
+    "status": "ac",
     "title": "二叉搜索树的最近公共祖先",
     "titleSlug": "lowest-common-ancestor-of-a-binary-search-tree"
   },
@@ -2839,7 +2839,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "236",
-    "status": "",
+    "status": "ac",
     "title": "二叉树的最近公共祖先",
     "titleSlug": "lowest-common-ancestor-of-a-binary-tree"
   },
@@ -3082,6 +3082,18 @@
     "status": "lock",
     "title": "粉刷房子",
     "titleSlug": "paint-house"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[257]二叉树的所有路径",
+    "frontendQuestionId": "257",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "257",
+    "status": "ac",
+    "title": "二叉树的所有路径",
+    "titleSlug": "binary-tree-paths"
   },
   {
     "articleLive": 2,
@@ -4150,18 +4162,6 @@
     "status": "lock",
     "title": "数据流中的移动平均值",
     "titleSlug": "moving-average-from-data-stream"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[347]前 K 个高频元素",
-    "frontendQuestionId": "347",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "347",
-    "status": "",
-    "title": "前 K 个高频元素",
-    "titleSlug": "top-k-frequent-elements"
   },
   {
     "articleLive": 2,
@@ -6451,7 +6451,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "538",
-    "status": "",
+    "status": "ac",
     "title": "把二叉搜索树转换为累加树",
     "titleSlug": "convert-bst-to-greater-tree"
   },
@@ -8023,7 +8023,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "669",
-    "status": "",
+    "status": "ac",
     "title": "修剪二叉搜索树",
     "titleSlug": "trim-a-binary-search-tree"
   },
@@ -18844,12 +18844,108 @@
     "formTitle": "[1571]Warehouse Manager",
     "frontendQuestionId": "1571",
     "leaf": true,
-    "level": 2,
+    "level": 1,
     "nodeType": "def",
     "questionId": "1718",
     "status": "lock",
     "title": "Warehouse Manager",
     "titleSlug": "warehouse-manager"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1572]矩阵对角线元素的和",
+    "frontendQuestionId": "1572",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "1677",
+    "status": "",
+    "title": "矩阵对角线元素的和",
+    "titleSlug": "matrix-diagonal-sum"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1573]分割字符串的方案数",
+    "frontendQuestionId": "1573",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1678",
+    "status": "",
+    "title": "分割字符串的方案数",
+    "titleSlug": "number-of-ways-to-split-a-string"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1574]删除最短的子数组使剩余数组有序",
+    "frontendQuestionId": "1574",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1679",
+    "status": "",
+    "title": "删除最短的子数组使剩余数组有序",
+    "titleSlug": "shortest-subarray-to-be-removed-to-make-array-sorted"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1575]统计所有可行路径",
+    "frontendQuestionId": "1575",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "1680",
+    "status": "",
+    "title": "统计所有可行路径",
+    "titleSlug": "count-all-possible-routes"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1576]替换所有的问号",
+    "frontendQuestionId": "1576",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "1698",
+    "status": "",
+    "title": "替换所有的问号",
+    "titleSlug": "replace-all-s-to-avoid-consecutive-repeating-characters"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1577]数的平方等于两数乘积的方法数",
+    "frontendQuestionId": "1577",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1699",
+    "status": "",
+    "title": "数的平方等于两数乘积的方法数",
+    "titleSlug": "number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1578]避免重复字母的最小删除成本",
+    "frontendQuestionId": "1578",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1700",
+    "status": "",
+    "title": "避免重复字母的最小删除成本",
+    "titleSlug": "minimum-deletion-cost-to-avoid-repeating-letters"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1579]保证图可完全遍历",
+    "frontendQuestionId": "1579",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "1701",
+    "status": "",
+    "title": "保证图可完全遍历",
+    "titleSlug": "remove-max-number-of-edges-to-keep-graph-fully-traversable"
   },
   {
     "articleLive": 2,
