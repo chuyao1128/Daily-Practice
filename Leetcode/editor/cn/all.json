@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[347]前 K 个高频元素",
-    "frontendQuestionId": "347",
+    "formTitle": "[216]组合总和 III",
+    "frontendQuestionId": "216",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
-    "questionId": "347",
+    "questionId": "216",
     "status": "ac",
-    "title": "前 K 个高频元素",
-    "titleSlug": "top-k-frequent-elements"
+    "title": "组合总和 III",
+    "titleSlug": "combination-sum-iii"
   },
   {
     "articleLive": 2,
@@ -475,7 +475,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "39",
-    "status": "",
+    "status": "ac",
     "title": "组合总和",
     "titleSlug": "combination-sum"
   },
@@ -487,7 +487,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "40",
-    "status": "",
+    "status": "ac",
     "title": "组合总和 II",
     "titleSlug": "combination-sum-ii"
   },
@@ -559,7 +559,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "46",
-    "status": "",
+    "status": "ac",
     "title": "全排列",
     "titleSlug": "permutations"
   },
@@ -931,7 +931,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "77",
-    "status": "",
+    "status": "ac",
     "title": "组合",
     "titleSlug": "combinations"
   },
@@ -943,7 +943,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "78",
-    "status": "",
+    "status": "ac",
     "title": "子集",
     "titleSlug": "subsets"
   },
@@ -1303,7 +1303,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "108",
-    "status": "",
+    "status": "ac",
     "title": "将有序数组转换为二叉搜索树",
     "titleSlug": "convert-sorted-array-to-binary-search-tree"
   },
@@ -1315,7 +1315,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "109",
-    "status": "",
+    "status": "ac",
     "title": "有序链表转换二叉搜索树",
     "titleSlug": "convert-sorted-list-to-binary-search-tree"
   },
@@ -2590,18 +2590,6 @@
     "status": "",
     "title": "数组中的第K个最大元素",
     "titleSlug": "kth-largest-element-in-an-array"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[216]组合总和 III",
-    "frontendQuestionId": "216",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "216",
-    "status": "",
-    "title": "组合总和 III",
-    "titleSlug": "combination-sum-iii"
   },
   {
     "articleLive": 2,
@@ -4162,6 +4150,18 @@
     "status": "lock",
     "title": "数据流中的移动平均值",
     "titleSlug": "moving-average-from-data-stream"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[347]前 K 个高频元素",
+    "frontendQuestionId": "347",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "347",
+    "status": "ac",
+    "title": "前 K 个高频元素",
+    "titleSlug": "top-k-frequent-elements"
   },
   {
     "articleLive": 2,
@@ -6007,7 +6007,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "501",
-    "status": "",
+    "status": "ac",
     "title": "二叉搜索树中的众数",
     "titleSlug": "find-mode-in-binary-search-tree"
   },
@@ -6355,7 +6355,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "530",
-    "status": "",
+    "status": "ac",
     "title": "二叉搜索树的最小绝对差",
     "titleSlug": "minimum-absolute-difference-in-bst"
   },
@@ -7831,7 +7831,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "653",
-    "status": "",
+    "status": "ac",
     "title": "两数之和 IV - 输入 BST",
     "titleSlug": "two-sum-iv-input-is-a-bst"
   },
@@ -11380,7 +11380,7 @@
     "formTitle": "[949]给定数字能组成的最大时间",
     "frontendQuestionId": "949",
     "leaf": true,
-    "level": 1,
+    "level": 2,
     "nodeType": "def",
     "questionId": "986",
     "status": "",
@@ -18949,6 +18949,30 @@
   },
   {
     "articleLive": 2,
+    "formTitle": "[1580]Put Boxes Into the Warehouse II",
+    "frontendQuestionId": "1580",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1719",
+    "status": "lock",
+    "title": "Put Boxes Into the Warehouse II",
+    "titleSlug": "put-boxes-into-the-warehouse-ii"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1581]Customer Who Visited but Did Not Make Any Transactions",
+    "frontendQuestionId": "1581",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "1724",
+    "status": "lock",
+    "title": "Customer Who Visited but Did Not Make Any Transactions",
+    "titleSlug": "customer-who-visited-but-did-not-make-any-transactions"
+  },
+  {
+    "articleLive": 2,
     "formTitle": "[LCP 01]猜数字",
     "frontendQuestionId": "LCP 01",
     "leaf": true,
@@ -19996,7 +20020,7 @@
     "formTitle": "[剑指 Offer 66]构建乘积数组",
     "frontendQuestionId": "剑指 Offer 66",
     "leaf": true,
-    "level": 1,
+    "level": 2,
     "nodeType": "def",
     "questionId": "100338",
     "status": "",

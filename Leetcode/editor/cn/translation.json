@@ -9765,6 +9765,16 @@
         "questionId": "1000148",
         "title": "\u98de\u8239\u68cb\u6e38\u620f",
         "__typename": "AppliedTranslationNode"
+      },
+      {
+        "questionId": "1707",
+        "title": "\u68c0\u67e5\u5b57\u7b26\u4e32\u662f\u5426\u53ef\u4ee5\u901a\u8fc7\u6392\u5e8f\u5b50\u5b57\u7b26\u4e32\u5f97\u5230\u53e6\u4e00\u4e2a\u5b57\u7b26\u4e32",
+        "__typename": "AppliedTranslationNode"
+      },
+      {
+        "questionId": "1706",
+        "title": "\u8fde\u63a5\u6240\u6709\u70b9\u7684\u6700\u5c0f\u8d39\u7528",
+        "__typename": "AppliedTranslationNode"
       }
     ]
   }
