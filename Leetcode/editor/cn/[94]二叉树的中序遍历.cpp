@@ -26,13 +26,15 @@
  *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
  * };
  */
+
+//2020-9-04
 class Solution {
 public:
     vector<int> inorderTraversal(TreeNode *root) {
         if (!root)
             return {};
         vector<int> res;
-        stack<TreeNode *> s;
+        stack < TreeNode * > s;
         s.push(root);
         while (!s.empty()) {
             TreeNode *cur = s.top();
@@ -49,6 +51,41 @@ public:
                 s.pop();
             }
         }
+        return res;
+    }
+};
+
+//2020-9-14
+class Solution_2 {
+private:
+    vector<int> res;
+public:
+    void dfs(TreeNode *root) {
+        if (!root)
+            return;
+        stack < TreeNode * > s;
+        s.push(root);
+        while (!s.empty()) {
+            TreeNode *cur = s.top();
+            s.pop();
+            if (cur != nullptr) {
+                if (cur->right)
+                    s.push(cur->right);
+                s.push(cur);
+                s.push(nullptr);
+                if (cur->left)
+                    s.push(cur->left);
+            } else {
+                res.push_back(s.top()->val);
+                s.pop();
+            }
+        }
+    }
+
+    vector<int> inorderTraversal(TreeNode *root) {
+        if (!root)
+            return {};
+        dfs(root);
         return res;
     }
 };
