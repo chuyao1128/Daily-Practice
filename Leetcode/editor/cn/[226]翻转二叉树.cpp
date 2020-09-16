@@ -36,6 +36,8 @@
  *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
  * };
  */
+
+//递归
 class Solution {
 public:
     TreeNode *invertTree(TreeNode *root) {
@@ -45,6 +47,27 @@ public:
             swap(root->left, root->right);
             invertTree(root->left);
             invertTree(root->right);
+        }
+        return root;
+    }
+};
+
+//迭代
+class Solution_2 {
+public:
+    TreeNode *invertTree(TreeNode *root) {
+        if (root == NULL)
+            return root;
+        stack<TreeNode *> s;
+        s.push(root);
+        while (!s.empty()) {
+            TreeNode *cur = s.top();
+            s.pop();
+            swap(cur->left, cur->right);
+            if (cur->left)
+                s.push(cur->left);
+            if (cur->right)
+                s.push(cur->right);
         }
         return root;
     }
