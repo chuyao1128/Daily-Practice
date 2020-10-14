@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[416]分割等和子集",
-    "frontendQuestionId": "416",
+    "formTitle": "[1002]查找常用字符",
+    "frontendQuestionId": "1002",
     "leaf": true,
-    "level": 2,
+    "level": 1,
     "nodeType": "def",
-    "questionId": "416",
+    "questionId": "1044",
     "status": "ac",
-    "title": "分割等和子集",
-    "titleSlug": "partition-equal-subset-sum"
+    "title": "查找常用字符",
+    "titleSlug": "find-common-characters"
   },
   {
     "articleLive": 2,
@@ -31,7 +31,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "2",
-    "status": "",
+    "status": "ac",
     "title": "两数相加",
     "titleSlug": "add-two-numbers"
   },
@@ -3217,14 +3217,14 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[268]缺失数字",
+    "formTitle": "[268]丢失的数字",
     "frontendQuestionId": "268",
     "leaf": true,
     "level": 1,
     "nodeType": "def",
     "questionId": "268",
     "status": "",
-    "title": "缺失数字",
+    "title": "丢失的数字",
     "titleSlug": "missing-number"
   },
   {
@@ -4990,6 +4990,18 @@
     "status": "",
     "title": "字符串相加",
     "titleSlug": "add-strings"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[416]分割等和子集",
+    "frontendQuestionId": "416",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "416",
+    "status": "ac",
+    "title": "分割等和子集",
+    "titleSlug": "partition-equal-subset-sum"
   },
   {
     "articleLive": 2,
@@ -12010,18 +12022,6 @@
     "status": "",
     "title": "网格照明",
     "titleSlug": "grid-illumination"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[1002]查找常用字符",
-    "frontendQuestionId": "1002",
-    "leaf": true,
-    "level": 1,
-    "nodeType": "def",
-    "questionId": "1044",
-    "status": "",
-    "title": "查找常用字符",
-    "titleSlug": "find-common-characters"
   },
   {
     "articleLive": 2,
@@ -19159,7 +19159,7 @@
     "level": 3,
     "nodeType": "def",
     "questionId": "1736",
-    "status": "",
+    "status": "lock",
     "title": "根据中缀表达式构造二叉表达式树",
     "titleSlug": "build-binary-expression-tree-from-infix-expression"
   },
@@ -19357,6 +19357,30 @@
   },
   {
     "articleLive": 2,
+    "formTitle": "[1614]括号的最大嵌套深度",
+    "frontendQuestionId": "1614",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "1737",
+    "status": "",
+    "title": "括号的最大嵌套深度",
+    "titleSlug": "maximum-nesting-depth-of-the-parentheses"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1615]最大网络秩",
+    "frontendQuestionId": "1615",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1738",
+    "status": "",
+    "title": "最大网络秩",
+    "titleSlug": "maximal-network-rank"
+  },
+  {
+    "articleLive": 2,
     "formTitle": "[1616]分割两个字符串得到回文串",
     "frontendQuestionId": "1616",
     "leaf": true,
@@ -19369,32 +19393,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5535]括号的最大嵌套深度",
-    "frontendQuestionId": "5535",
-    "leaf": true,
-    "level": 1,
-    "nodeType": "def",
-    "questionId": "1737",
-    "status": "",
-    "title": "括号的最大嵌套深度",
-    "titleSlug": "maximum-nesting-depth-of-the-parentheses"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[5536]最大网络秩",
-    "frontendQuestionId": "5536",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "1738",
-    "status": "",
-    "title": "最大网络秩",
-    "titleSlug": "maximal-network-rank"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[5538]统计子树中城市之间最大距离",
-    "frontendQuestionId": "5538",
+    "formTitle": "[1617]统计子树中城市之间最大距离",
+    "frontendQuestionId": "1617",
     "leaf": true,
     "level": 3,
     "nodeType": "def",
@@ -21676,7 +21676,7 @@
     "formTitle": "[面试题 17.06]2出现的次数",
     "frontendQuestionId": "面试题 17.06",
     "leaf": true,
-    "level": 2,
+    "level": 3,
     "nodeType": "def",
     "questionId": "1000034",
     "status": "",
