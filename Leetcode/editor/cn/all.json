@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[1002]查找常用字符",
-    "frontendQuestionId": "1002",
+    "formTitle": "[977]有序数组的平方",
+    "frontendQuestionId": "977",
     "leaf": true,
     "level": 1,
     "nodeType": "def",
-    "questionId": "1044",
+    "questionId": "1019",
     "status": "ac",
-    "title": "查找常用字符",
-    "titleSlug": "find-common-characters"
+    "title": "有序数组的平方",
+    "titleSlug": "squares-of-a-sorted-array"
   },
   {
     "articleLive": 2,
@@ -1399,7 +1399,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "116",
-    "status": "",
+    "status": "ac",
     "title": "填充每个节点的下一个右侧节点指针",
     "titleSlug": "populating-next-right-pointers-in-each-node"
   },
@@ -8248,7 +8248,7 @@
     "formTitle": "[687]最长同值路径",
     "frontendQuestionId": "687",
     "leaf": true,
-    "level": 1,
+    "level": 2,
     "nodeType": "def",
     "questionId": "687",
     "status": "ac",
@@ -8419,7 +8419,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "784",
-    "status": "",
+    "status": "ac",
     "title": "二叉搜索树中的插入操作",
     "titleSlug": "insert-into-a-binary-search-tree"
   },
@@ -11725,18 +11725,6 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[977]有序数组的平方",
-    "frontendQuestionId": "977",
-    "leaf": true,
-    "level": 1,
-    "nodeType": "def",
-    "questionId": "1019",
-    "status": "",
-    "title": "有序数组的平方",
-    "titleSlug": "squares-of-a-sorted-array"
-  },
-  {
-    "articleLive": 2,
     "formTitle": "[978]最长湍流子数组",
     "frontendQuestionId": "978",
     "leaf": true,
@@ -12022,6 +12010,18 @@
     "status": "",
     "title": "网格照明",
     "titleSlug": "grid-illumination"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1002]查找常用字符",
+    "frontendQuestionId": "1002",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "1044",
+    "status": "ac",
+    "title": "查找常用字符",
+    "titleSlug": "find-common-characters"
   },
   {
     "articleLive": 2,
@@ -19405,6 +19405,18 @@
   },
   {
     "articleLive": 2,
+    "formTitle": "[1618]Maximum Font to Fit a Sentence in a Screen",
+    "frontendQuestionId": "1618",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1384",
+    "status": "",
+    "title": "Maximum Font to Fit a Sentence in a Screen",
+    "titleSlug": "maximum-font-to-fit-a-sentence-in-a-screen"
+  },
+  {
+    "articleLive": 2,
     "formTitle": "[LCP 01]猜数字",
     "frontendQuestionId": "LCP 01",
     "leaf": true,
@@ -20230,6 +20242,18 @@
     "status": "",
     "title": "连续子数组的最大和",
     "titleSlug": "lian-xu-zi-shu-zu-de-zui-da-he-lcof"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[剑指 Offer 43]1～n 整数中 1 出现的次数",
+    "frontendQuestionId": "剑指 Offer 43",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "100309",
+    "status": "",
+    "title": "1～n 整数中 1 出现的次数",
+    "titleSlug": "1nzheng-shu-zhong-1chu-xian-de-ci-shu-lcof"
   },
   {
     "articleLive": 2,
@@ -21922,17 +21946,5 @@
     "status": "",
     "title": "稀疏相似度",
     "titleSlug": "sparse-similarity-lcci"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[面试题43]1～n整数中1出现的次数",
-    "frontendQuestionId": "面试题43",
-    "leaf": true,
-    "level": 3,
-    "nodeType": "def",
-    "questionId": "100309",
-    "status": "",
-    "title": "1～n整数中1出现的次数",
-    "titleSlug": "1nzheng-shu-zhong-1chu-xian-de-ci-shu-lcof"
   }
 ]
