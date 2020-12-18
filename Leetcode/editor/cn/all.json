@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[861]翻转矩阵后的得分",
-    "frontendQuestionId": "861",
+    "formTitle": "[389]找不同",
+    "frontendQuestionId": "389",
     "leaf": true,
-    "level": 2,
+    "level": 1,
     "nodeType": "def",
-    "questionId": "891",
+    "questionId": "389",
     "status": "ac",
-    "title": "翻转矩阵后的得分",
-    "titleSlug": "score-after-flipping-matrix"
+    "title": "找不同",
+    "titleSlug": "find-the-difference"
   },
   {
     "articleLive": 2,
@@ -595,7 +595,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "49",
-    "status": "",
+    "status": "ac",
     "title": "字母异位词分组",
     "titleSlug": "group-anagrams"
   },
@@ -751,7 +751,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "62",
-    "status": "",
+    "status": "ac",
     "title": "不同路径",
     "titleSlug": "unique-paths"
   },
@@ -2611,7 +2611,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "217",
-    "status": "",
+    "status": "ac",
     "title": "存在重复元素",
     "titleSlug": "contains-duplicate"
   },
@@ -3601,14 +3601,14 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[300]最长上升子序列",
+    "formTitle": "[300]最长递增子序列",
     "frontendQuestionId": "300",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
     "questionId": "300",
     "status": "",
-    "title": "最长上升子序列",
+    "title": "最长递增子序列",
     "titleSlug": "longest-increasing-subsequence"
   },
   {
@@ -4669,18 +4669,6 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[389]找不同",
-    "frontendQuestionId": "389",
-    "leaf": true,
-    "level": 1,
-    "nodeType": "def",
-    "questionId": "389",
-    "status": "",
-    "title": "找不同",
-    "titleSlug": "find-the-difference"
-  },
-  {
-    "articleLive": 2,
     "formTitle": "[390]消除游戏",
     "frontendQuestionId": "390",
     "leaf": true,
@@ -5437,14 +5425,14 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[453]最小移动次数使数组元素相等",
+    "formTitle": "[453]最小操作次数使数组元素相等",
     "frontendQuestionId": "453",
     "leaf": true,
     "level": 1,
     "nodeType": "def",
     "questionId": "453",
     "status": "",
-    "title": "最小移动次数使数组元素相等",
+    "title": "最小操作次数使数组元素相等",
     "titleSlug": "minimum-moves-to-equal-array-elements"
   },
   {
@@ -6115,7 +6103,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "1013",
-    "status": "",
+    "status": "ac",
     "title": "斐波那契数",
     "titleSlug": "fibonacci-number"
   },
@@ -7165,14 +7153,14 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[597]好友申请 I ：总体通过率",
+    "formTitle": "[597]好友申请 I：总体通过率",
     "frontendQuestionId": "597",
     "leaf": true,
     "level": 1,
     "nodeType": "def",
     "questionId": "597",
     "status": "lock",
-    "title": "好友申请 I ：总体通过率",
+    "title": "好友申请 I：总体通过率",
     "titleSlug": "friend-requests-i-overall-acceptance-rate"
   },
   {
@@ -8575,7 +8563,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "714",
-    "status": "",
+    "status": "ac",
     "title": "买卖股票的最佳时机含手续费",
     "titleSlug": "best-time-to-buy-and-sell-stock-with-transaction-fee"
   },
@@ -8863,7 +8851,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "738",
-    "status": "",
+    "status": "ac",
     "title": "单调递增的数字",
     "titleSlug": "monotone-increasing-digits"
   },
@@ -10327,9 +10315,21 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "890",
-    "status": "",
+    "status": "ac",
     "title": "柠檬水找零",
     "titleSlug": "lemonade-change"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[861]翻转矩阵后的得分",
+    "frontendQuestionId": "861",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "891",
+    "status": "ac",
+    "title": "翻转矩阵后的得分",
+    "titleSlug": "score-after-flipping-matrix"
   },
   {
     "articleLive": 2,
@@ -19981,14 +19981,14 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[1666]Change the Root of a Binary Tree",
+    "formTitle": "[1666]改变二叉树的根节点",
     "frontendQuestionId": "1666",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
     "questionId": "1810",
     "status": "lock",
-    "title": "Change the Root of a Binary Tree",
+    "title": "改变二叉树的根节点",
     "titleSlug": "change-the-root-of-a-binary-tree"
   },
   {
@@ -20170,6 +20170,138 @@
     "status": "",
     "title": "最小不兼容性",
     "titleSlug": "minimum-incompatibility"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1682]Longest Palindromic Subsequence II",
+    "frontendQuestionId": "1682",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1822",
+    "status": "lock",
+    "title": "Longest Palindromic Subsequence II",
+    "titleSlug": "longest-palindromic-subsequence-ii"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1683]Invalid Tweets",
+    "frontendQuestionId": "1683",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "1827",
+    "status": "lock",
+    "title": "Invalid Tweets",
+    "titleSlug": "invalid-tweets"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1684]统计一致字符串的数目",
+    "frontendQuestionId": "1684",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "1786",
+    "status": "",
+    "title": "统计一致字符串的数目",
+    "titleSlug": "count-the-number-of-consistent-strings"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1685]有序数组中差绝对值之和",
+    "frontendQuestionId": "1685",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1787",
+    "status": "",
+    "title": "有序数组中差绝对值之和",
+    "titleSlug": "sum-of-absolute-differences-in-a-sorted-array"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1686]石子游戏 VI",
+    "frontendQuestionId": "1686",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1788",
+    "status": "",
+    "title": "石子游戏 VI",
+    "titleSlug": "stone-game-vi"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1687]从仓库到码头运输箱子",
+    "frontendQuestionId": "1687",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "1789",
+    "status": "",
+    "title": "从仓库到码头运输箱子",
+    "titleSlug": "delivering-boxes-from-storage-to-ports"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1688]比赛中的配对次数",
+    "frontendQuestionId": "1688",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "1806",
+    "status": "",
+    "title": "比赛中的配对次数",
+    "titleSlug": "count-of-matches-in-tournament"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1689]十-二进制数的最少数目",
+    "frontendQuestionId": "1689",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1807",
+    "status": "",
+    "title": "十-二进制数的最少数目",
+    "titleSlug": "partitioning-into-minimum-number-of-deci-binary-numbers"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1690]石子游戏 VII",
+    "frontendQuestionId": "1690",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1808",
+    "status": "",
+    "title": "石子游戏 VII",
+    "titleSlug": "stone-game-vii"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1691]堆叠长方体的最大高度",
+    "frontendQuestionId": "1691",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "1367",
+    "status": "",
+    "title": "堆叠长方体的最大高度",
+    "titleSlug": "maximum-height-by-stacking-cuboids"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1692]Count Ways to Distribute Candies",
+    "frontendQuestionId": "1692",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "1828",
+    "status": "lock",
+    "title": "Count Ways to Distribute Candies",
+    "titleSlug": "count-ways-to-distribute-candies"
   },
   {
     "articleLive": 2,
